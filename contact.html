@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Oparaocha Chidinma</title>
+<meta name="description" content="Academic portfolio and student planner of Oparaocha Chidinma.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site"><div class="container nav">
+<a class="brand" href="index.html">Oparaocha Chidinma</a>
+<button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navList">Menu</button>
+<nav aria-label="Main"><ul id="navList"><li><a class="link" href="index.html">Home</a></li><li><a class="link" href="about.html">About Me</a></li><li><a class="link" href="projects.html">Projects</a></li><li><a class="link" href="planner.html">Academic Planner</a></li><li><a class="link active" href="contact.html">Contact</a></li></ul></nav>
+</div></header>
+<div class="page-title"><div class="container"><h1>Contact me</h1></div></div>
+<main><section><div class="container">
+<form id="contactForm" class="contact" novalidate>
+<div class="field"><label for="name">Name</label><input type="text" id="name" name="name"><span class="error" id="nameError"></span></div>
+<div class="field"><label for="email">Email address</label><input type="email" id="email" name="email"><span class="error" id="emailError"></span></div>
+<div class="field"><label for="phone">Phone number</label><input type="text" id="phone" name="phone" inputmode="numeric"><span class="error" id="phoneError"></span></div>
+<div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5"></textarea><span class="error" id="messageError"></span></div>
+<button class="btn" type="submit">Send message</button>
+<div id="formStatus" aria-live="polite"></div>
+</form></div></section></main><footer><div class="container"><p>&copy; 2026 Oparaocha Chidinma &middot; <a href="https://github.com/your-username/your-repo">GitHub repository</a></p></div></footer>
+<script src="js/main.js"></script>
+</body>
+</html>

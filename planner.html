@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Academic Planner | Oparaocha Chidinma</title>
+<meta name="description" content="Academic portfolio and student planner of Oparaocha Chidinma.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site"><div class="container nav">
+<a class="brand" href="index.html">Oparaocha Chidinma</a>
+<button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navList">Menu</button>
+<nav aria-label="Main"><ul id="navList"><li><a class="link" href="index.html">Home</a></li><li><a class="link" href="about.html">About Me</a></li><li><a class="link" href="projects.html">Projects</a></li><li><a class="link active" href="planner.html">Academic Planner</a></li><li><a class="link" href="contact.html">Contact</a></li></ul></nav>
+</div></header>
+<div class="page-title"><div class="container"><h1>Academic planner</h1></div></div>
+<main><section><div class="container"><div class="planner">
+<form id="taskForm" class="add-row"><label for="taskInput" class="sr" style="position:absolute;left:-9999px">New task</label>
+<input type="text" id="taskInput" placeholder="e.g. Submit CSC201 assignment" autocomplete="off">
+<button class="btn" type="submit">Add task</button></form>
+<p class="counter" id="counter" aria-live="polite"></p>
+<ul id="taskList"></ul>
+</div></div></section></main><footer><div class="container"><p>&copy; 2026 Oparaocha Chidinma &middot; <a href="https://github.com/your-username/your-repo">GitHub repository</a></p></div></footer>
+<script src="js/main.js"></script>
+</body>
+</html>
